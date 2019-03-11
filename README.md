@@ -2,6 +2,8 @@
 ```
 ```
 This image is intended to be used for displaying X11 applications from other containers in a browser. A stand-alone demo as well as a [Version 2](https://docs.docker.com/compose/compose-file/#version-2) composition.
+
+# Deploy to Heroku.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/0x77dev/docker-novnc)
 ## Image Contents
 
