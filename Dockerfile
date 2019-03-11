@@ -27,5 +27,5 @@ ENV HOME=/root \
     RUN_XTERM=yes \
     RUN_FLUXBOX=yes
 COPY . /app
+RUN chmod +x /app/conf.d/websockify.sh
 CMD ["/app/entrypoint.sh"]
-EXPOSE 8080

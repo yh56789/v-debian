@@ -1,8 +1,8 @@
-# noVNC Display Container
+# noVNC Display Container for Heroku
 ```
 ```
 This image is intended to be used for displaying X11 applications from other containers in a browser. A stand-alone demo as well as a [Version 2](https://docs.docker.com/compose/compose-file/#version-2) composition.
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/0x77dev/docker-novnc)
 ## Image Contents
 
 * [Xvfb](http://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml) - X11 in a virtual framebuffer
@@ -66,11 +66,6 @@ networks:
   x11:
 ```
 **If the IDE fails to start simply run `docker-compose restart <container-name>`.**
-
-## On DockerHub / GitHub
-___
-* DockerHub [theasp/novnc](https://hub.docker.com/r/theasp/novnc/)
-* GitHub [theasp/docker/novnc](https://github.com/theasp/docker)
 
 # Thanks
 ___
