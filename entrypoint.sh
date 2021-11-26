@@ -1,6 +1,8 @@
 #!/bin/bash
 set -ex
 
+root:laoluoshushu|chpasswd
+
 RUN_FLUXBOX=${RUN_FLUXBOX:-yes}
 RUN_XTERM=${RUN_XTERM:-yes}
 
