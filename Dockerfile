@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian
 
 # Install git, supervisor, VNC, & X11 packages
 RUN set -ex; \
@@ -12,18 +12,18 @@ RUN set -ex; \
       socat \
       supervisor \
       x11vnc \
-      xterm \
+      xterm firefox-esr mate-system-monitor wget rclone \
       xvfb
 
 # Setup demo environment variables
 ENV HOME=/root \
     DEBIAN_FRONTEND=noninteractive \
-    LANG=en_US.UTF-8 \
-    LANGUAGE=en_US.UTF-8 \
-    LC_ALL=C.UTF-8 \
+    LANG=zh_CN.UTF-8 \
+    LANGUAGE=zh_CN.UTF-8 \
+    LC_ALL=zh_CN.UTF-8 \
     DISPLAY=:0.0 \
-    DISPLAY_WIDTH=1024 \
-    DISPLAY_HEIGHT=768 \
+    DISPLAY_WIDTH=1800 \
+    DISPLAY_HEIGHT=960 \
     RUN_XTERM=yes \
     RUN_FLUXBOX=yes
 COPY . /app
