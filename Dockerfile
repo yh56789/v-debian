@@ -12,7 +12,7 @@ RUN set -ex; \
       socat \
       supervisor \
       x11vnc \
-      xterm firefox-esr mate-system-monitor wget rclone \
+      xterm firefox-esr mate-system-monitor wget rclone lxde \
       xvfb
 
 # Setup demo environment variables
