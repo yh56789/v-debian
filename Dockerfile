@@ -3,7 +3,7 @@ FROM debian
 # Install git, supervisor, VNC, & X11 packages
 RUN set -ex; \
     apt-get update; \
-    apt-get install -y \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y \
       bash \
       fluxbox \
       git \
