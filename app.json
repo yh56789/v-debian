@@ -1,4 +1,9 @@
 {
-	"name": "noVNC Debian",
-	"repository": "https://github.com/0x77dev/docker-novnc"
-}
+  "name": "debian noVNC",
+  "description": "debian noVNC",
+  "repository": "https://github.com/yh56789/v-debian",
+  
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
